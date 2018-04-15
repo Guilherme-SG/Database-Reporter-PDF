@@ -1,0 +1,91 @@
+/* More backgrounds */
+.background-dark-blue-gray {
+  background-color: #3E6999 !important;
+}
+
+.background-cyan {
+  background-color: #00bcd4 !important;
+}
+
+.background-cyan h1 {
+  color: white !important;
+}
+
+.background-whitesmoke {
+  background-color: whitesmoke !important;
+}
+
+.background-dark-blue {
+	background-color: #156CCC !important;
+}
+
+.background-red {
+  background-color: #CC2315 !important;
+}
+
+.call-to-action {
+	background: #ff5722 !important;
+}
+
+.call-to-action a {
+  border: 0 none;
+  color: #fff !important;
+  height: 2.7rem;
+  padding: 0.625rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.convertion-form {
+  background: linear-gradient( #00bcd4, #002850 );
+}
+
+.convertion-form h1 {
+  color: white !important;
+}
+
+/*Form Style */
+input {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #333 ;
+    border-radius: 10px !important; 
+    box-sizing: border-box !important;
+}
+
+/* Alerts */
+.error-alert {
+  color: #a94442; 
+  background-color: #f1dddd;
+}
+
+input.input-error.ng-invalid.ng-dirty  {
+  background-color: #f1dddd !important;
+}
+
+.home-header { 
+  background: linear-gradient( #00bcd4, #002850 );
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;  
+
+  width: 100%;
+
+  /* Define height image removing nav bar size */
+  height: calc(100vh);
+}
+
+.justify-indented {
+  text-align: justify;
+  text-indent: 47px;
+}
+
+.text-readable {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
