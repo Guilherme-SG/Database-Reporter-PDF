@@ -1,4 +1,4 @@
 # Database Reporter PDF
-Uma aplicação PHP com MySQL para registrar relatórios no banco de dados e posteriormente imprimir os registros em um único arquivo PDF.
+This is an application in PHP with MySQL to record preseted reports in an database, and posteriorly print all of them in a single PDF file to download.
 
-Nessa aplicação foram utilizadas as bibliotecas [mPDF](https://github.com/IanNBack/mpdf) para criação de PDF e a biblioteca [PHP-Mysql](https://github.com/Guilherme-SG/PHP-MySQL) para facilitar na integração com banco de dados.
+This application uses [mPDF](https://github.com/IanNBack/mpdf) to PDF criation and my library [PHP-Mysql](https://github.com/Guilherme-SG/PHP-MySQL) to facilitate  database integration.
