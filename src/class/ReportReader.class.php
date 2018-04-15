@@ -3,9 +3,8 @@ class ReportReader{
     private $report;
     private $mySqlCrud;
 
-    public function __construct() {
-        $mySqlConfig = new MySqlConfig('localhost', 'root', 'usbw', 'db_report_pdf', 'utf8');
-        $this->mySqlCrud = new MySqlCRUD($mySqlConfig);
+    public function __construct(MySqlConfig $config) {
+        $this->mySqlCrud = new MySqlCRUD($config);
     }
 
     public function readAllReports() {
